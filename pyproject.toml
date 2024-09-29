@@ -1,0 +1,21 @@
+[project]
+name = "aanalyticsact_1"
+version = "0.1.53"
+description = "Adobe Analytics Api Extraction"
+authors = [
+    {name = "Youngkwang Cho", email = "youngkwang.cho@concentrix.com"},
+]
+dependencies = [
+    "sqlalchemy==1.4.39",
+    "pandas==2.1.4"
+]
+requires-python = ">=3.12"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
